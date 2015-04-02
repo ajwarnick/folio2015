@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4F6540EF-EE2D-4528-8D8A-CDC3885B6EBE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FOLIO 2015</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8656C2E849A3E92D77B78D2A26D61A9C1179714B</key>
+		<string>https://github.com/ajwarnick/folio2015.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/FOLIO 2015.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8656C2E849A3E92D77B78D2A26D61A9C1179714B</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ajwarnick/folio2015.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8656C2E849A3E92D77B78D2A26D61A9C1179714B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8656C2E849A3E92D77B78D2A26D61A9C1179714B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>folio2015</string>
+		</dict>
+	</array>
+</dict>
+</plist>
