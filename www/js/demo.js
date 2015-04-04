@@ -210,11 +210,19 @@ addEvent(document.getElementById('open-right'), 'click', function(){
 })(document, window.navigator, "standalone");
 
 snapper.on('start', function(){
-    // Do Something
     if(snapper.state().state === 'closed'){
-        current_id = get_id($('#content').scrollTop()+window.innerHeight);
-        replace_html_side(grads_html[current_id] ,"snap-drawer-right");
-        replace_html_side(grads_cap_html[current_id] ,"snap-drawer-left");
+        if ($('body').hasClass('under_cranbrook_body') || $('body').hasClass('colophon_body')) {
+            console.log('has under cranbrook and or colophon');
+            document.getElementById('snap-drawer-left').innerHTML = '';
+            document.getElementById('snap-drawer-left').innerHTML = menu_html;
+            document.getElementById('snap-drawer-right').innerHTML = '';
+            document.getElementById('snap-drawer-right').innerHTML = menu_html;
+
+        }else{
+            current_id = get_id($('#content').scrollTop()+window.innerHeight);
+            replace_html_side(grads_html[current_id] ,"snap-drawer-right");
+            replace_html_side(grads_cap_html[current_id] ,"snap-drawer-left"); 
+        }
     }else{
     }    
 });
