@@ -106,7 +106,7 @@
 
     return YES;
 }
-
+/*
 // repost all remote and local notification using the default NSNotificationCenter so multiple plugins may respond
 - (void)            application:(UIApplication*)application
     didReceiveLocalNotification:(UILocalNotification*)notification
@@ -126,6 +126,7 @@
 
     [[NSNotificationCenter defaultCenter] postNotificationName:CDVRemoteNotification object:token];
 }
+*/
 
 - (void)                                 application:(UIApplication*)application
     didFailToRegisterForRemoteNotificationsWithError:(NSError*)error
